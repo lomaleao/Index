@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Index </title>
+<link rel="stylesheet" href="Index.css">
+<link href="index.js">
+
+</head>
+
+<body>  
+
+<h1>Paloma Leão </h1>
+<p> Meu nome é Paloma Aparecida da Silva Leão, tenho 22 anos, moro em Leme-SP, gosto bastante de estudar e tenho interesse em me formar na faculdade
+    e me tornar uma profissional bem sucedida. <br>
+
+    <button id="myButton"> Clique para ver uma mensagem! </button>
+    <div id="messageContainer"></div>
+ 
+<ul>
+<li> Jogar videogame </li> <br>
+<li> Ouvir música </li> <br>
+<li>  Cozinhar </li>  <br>
+ </ul>
+ <img src="videogame.jpg" class="videogame" width="200"> 
+
+</p>
+
+<table>
+
+    <caption> Países que eu gostaria de visitar:</caption>
+        
+    <tr>
+        <tbody>
+
+       <td> Canadá 
+            <td> <img src="Canada.jpg" width="150" </td>
+        </td>
+    </tr>
+
+    <tr>
+        <td> Itália </td>
+        <td> <img src="Italia.jpg"  width="150" </td>
+
+    <tr>
+        <td> Suíça </td>
+        <td> <img src="Suiça.jpg" width="150"</td>
+    </tr>
+        </tbody>
+
+</table>
+
+<a href="https://x.com/?logged_out=1&lang=pt"> Ir para o Twitter</a>
+
+<script>
+const button = document.getElementById("myButton");
+const messageContainer = document.getElementById("messageContainer");
+
+button.addEventListener("click", function() {messageContainer.textContent = "Continue tentando, você é capaz!";
+    
+});
+</script>
+
+<style>
+     p{font-size:large; text-align:justify;}
+body{background-color:#dac9cb ;}
+li{padding-bottom:10px;}
+.videogame{border-radius:20px;}
+caption{font-size: 20px;}
+h1{color: rgb(255, 0, 68); text-align: center;}
+p{font-size:large; text-align:justify;}
+table{border:10px solid black;
+    background-color: white;
+    width:100px;
+    padding: 5px;
+    text-align: right;
+    vertical-align:auto;}
+ </style>
+    
+
+
+</body>
+  
+</html>  
+ 
